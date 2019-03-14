@@ -1,0 +1,42 @@
+body{
+    background-image:url("tara-urso.jpg");
+    background-repeat:repeat;
+    background-size:500px;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 300%;
+}
+img{
+    width:200px;
+    margin-left:30%;
+    border-radius:50%;
+
+}
+ul{
+    display:flex;
+    justify-content:space-around;
+}
+.class-list{
+    list-style: none;
+    background: palegreen;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0 5px 5px rgb(16, 43, 92);
+}
+.class-list >a{
+    color:black;
+    text-decoration: none;
+    font-family:"courier new";
+    font-weight:bold;
+}
+div{
+    border-radius: 30pt;
+    width: 500px;
+    padding: 40px;
+    background-color:aqua;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
